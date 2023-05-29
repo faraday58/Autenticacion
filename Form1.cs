@@ -24,6 +24,9 @@ namespace Autenticacion
                 MessageBox.Show("Usuario o contraseña incorrecta");
             }*/
 
+
+
+
             GeneraUsuario generaUsuario = new GeneraUsuario();
             generaUsuario.Generar();
             Persona persona = (Persona)generaUsuario.usuarios[0];
@@ -41,27 +44,7 @@ namespace Autenticacion
 
         }
 
-        private void txtbPassword_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if ( e.KeyChar == (char)Keys.Enter  )
-            {
-
-                GeneraUsuario generaUsuario = new GeneraUsuario();
-                generaUsuario.Generar();
-                Persona persona = (Persona)generaUsuario.usuarios[0];
-
-
-                if (txtbUsuario.Text == persona.Usuario && txtbPassword.Text == persona.Password)
-                {
-                    MessageBox.Show("Autenticación exitosa");
-                }
-                else
-                {
-                    MessageBox.Show("Usuario o contraseña incorrecta");
-                }
-
-            }
-
-        }
+        
+        
     }
 }

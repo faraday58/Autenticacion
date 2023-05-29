@@ -68,7 +68,7 @@
             this.txtbPassword.PasswordChar = '*';
             this.txtbPassword.Size = new System.Drawing.Size(227, 20);
             this.txtbPassword.TabIndex = 1;
-            this.txtbPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbPassword_KeyPress);
+            this.txtbPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnEntrar_Click);
             // 
             // btnEntrar
             // 

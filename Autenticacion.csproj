@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="RESGISTROS_G03">
+      <HintPath>E:\TÉCNICAS DE PROGRAMACIÓN\PROYECTOS\RESGISTROS_G03\bin\Debug\RESGISTROS_G03.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
